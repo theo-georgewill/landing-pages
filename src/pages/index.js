@@ -25,7 +25,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Solar Calculator</title>
+				<title>Social Media Scheduler</title>
 			</Head>
 			<Header
 				logo={header.logo}
@@ -34,12 +34,12 @@ export default function Home() {
 			/>
 			<HeroSection
 				id="home"
-				title="See How Much You Can Save with Solar"
-				description="Our energy calculator lets you instantly estimate your costs, savings, and return on investment when switching to partial or full solar solutions."
+				title="Plan. Post. Grow."
+				description="Take control of your social media with our all-in-one scheduling and analytics tool—perfect for busy creators and brands."
 				buttons={[
 					{
 						href: "#",
-						label: "Calculate Your Savings",
+						label: "Start Free Trial",
 						color: "dark",
 					},
 					{
@@ -65,7 +65,7 @@ export default function Home() {
 				features={features}
 			/>
 			<LargeFeatureSection
-				title="Save Money & Plan Smarter"
+				title="Save Time on Content Posting"
 				description=""
 				list={features.slice(0, 3)}
 				image={{
@@ -77,7 +77,7 @@ export default function Home() {
 			/>
 			<LargeFeatureSection
 				reverse={true}
-				title="Understand Your Energy Needs"
+				title="Boost Engagement"
 				description=""
 				list={features.slice(3, 6)}
 				image={{
@@ -88,7 +88,7 @@ export default function Home() {
 				}}
 			/>
 			<LargeFeatureSection
-				title="Make Data-Driven Decisions"
+				title="Track & Improve Performance"
 				description=""
 				list={features.slice(6, 9)}
 				image={{
