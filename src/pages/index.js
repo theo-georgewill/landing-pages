@@ -25,7 +25,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Bookr</title>
+				<title>Fitness Tracker</title>
 			</Head>
 			<Header
 				logo={header.logo}
@@ -34,8 +34,8 @@ export default function Home() {
 			/>
 			<HeroSection
 				id="home"
-				title="Smart Scheduling for Busy Businesses."
-				description="Bookr simplifies how you manage appointments, clients, and staff—all in one powerful, easy-to-use platform."
+				title="Level Up Your Fitness, One Day at a Time."
+				description="Our fitness app combines daily structured workouts, gamification, and progress tracking—making exercise fun, addictive, and tailored to you."
 				buttons={[
 					{
 						href: "#",
@@ -44,7 +44,7 @@ export default function Home() {
 					},
 					{
 						href: "#",
-						label: "Learn How It Works",
+						label: "See How It Works",
 						color: "transparent",
 						variant: "link",
 						icon: "tabler:arrow-right",
@@ -65,7 +65,7 @@ export default function Home() {
 				features={features}
 			/>
 			<LargeFeatureSection
-				title="Save Time & Reduce No-Shows"
+				title="Stay Motivated with Gamification"
 				description=""
 				list={features.slice(0, 3)}
 				image={{
@@ -77,7 +77,7 @@ export default function Home() {
 			/>
 			<LargeFeatureSection
 				reverse={true}
-				title="Manage Your Business Effortlessly"
+				title="Structured, Personalized Workouts"
 				description=""
 				list={features.slice(3, 6)}
 				image={{
@@ -88,7 +88,7 @@ export default function Home() {
 				}}
 			/>
 			<LargeFeatureSection
-				title="Improve Customer Experience"
+				title=" Track Your Progress & Results"
 				description=""
 				list={features.slice(6, 9)}
 				image={{
@@ -100,7 +100,7 @@ export default function Home() {
 			/>
 			<LargeFeatureSection
 				reverse={true}
-				title="Get Insights & Stay Organized"
+				title="Fun & Interactive Experience"
 				description=""
 				list={features.slice(6, 9)}
 				image={{
