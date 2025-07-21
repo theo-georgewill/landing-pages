@@ -25,7 +25,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Social Media Scheduler</title>
+				<title>Bookr</title>
 			</Head>
 			<Header
 				logo={header.logo}
@@ -34,8 +34,8 @@ export default function Home() {
 			/>
 			<HeroSection
 				id="home"
-				title="Plan. Post. Grow."
-				description="Take control of your social media with our all-in-one scheduling and analytics tool—perfect for busy creators and brands."
+				title="Smart Scheduling for Busy Businesses."
+				description="Bookr simplifies how you manage appointments, clients, and staff—all in one powerful, easy-to-use platform."
 				buttons={[
 					{
 						href: "#",
@@ -65,7 +65,7 @@ export default function Home() {
 				features={features}
 			/>
 			<LargeFeatureSection
-				title="Save Time on Content Posting"
+				title="Save Time & Reduce No-Shows"
 				description=""
 				list={features.slice(0, 3)}
 				image={{
@@ -77,7 +77,7 @@ export default function Home() {
 			/>
 			<LargeFeatureSection
 				reverse={true}
-				title="Boost Engagement"
+				title="Manage Your Business Effortlessly"
 				description=""
 				list={features.slice(3, 6)}
 				image={{
@@ -88,7 +88,7 @@ export default function Home() {
 				}}
 			/>
 			<LargeFeatureSection
-				title="Track & Improve Performance"
+				title="Improve Customer Experience"
 				description=""
 				list={features.slice(6, 9)}
 				image={{
@@ -96,6 +96,18 @@ export default function Home() {
 					alt: "Image",
 					className:
 						"w-full aspect-square object-contain rotate-6 hover:rotate-0 duration-300 ease-in-out",
+				}}
+			/>
+			<LargeFeatureSection
+				reverse={true}
+				title="Get Insights & Stay Organized"
+				description=""
+				list={features.slice(6, 9)}
+				image={{
+					src: "./phone-mockup.png",
+					alt: "Image",
+					className:
+						"w-full aspect-square object-contain -rotate-6 hover:rotate-0 duration-300 ease-in-out",
 				}}
 			/>
 			<PricingSection
