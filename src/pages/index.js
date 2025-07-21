@@ -34,17 +34,17 @@ export default function Home() {
 			/>
 			<HeroSection
 				id="home"
-				title="Sync Your Clients. Streamline Your Workflow"
-				description="ClientSync automates your CRM and business tool integrations, ensuring every client record is always accurate, organized, and up-to-date"
+				title="See How Much You Can Save with Solar"
+				description="Our energy calculator lets you instantly estimate your costs, savings, and return on investment when switching to partial or full solar solutions."
 				buttons={[
 					{
 						href: "#",
-						label: "Get Started Free",
+						label: "Calculate Your Savings",
 						color: "dark",
 					},
 					{
 						href: "#",
-						label: "See ClientSync in Action",
+						label: "Learn How It Works",
 						color: "transparent",
 						variant: "link",
 						icon: "tabler:arrow-right",
@@ -65,8 +65,8 @@ export default function Home() {
 				features={features}
 			/>
 			<LargeFeatureSection
-				title=" Save Time & Eliminate Manual Work"
-				description="Spend less time on repetitive tasks and more on high-value work."
+				title="Save Money & Plan Smarter"
+				description=""
 				list={features.slice(0, 3)}
 				image={{
 					src: "./phone-mockup.png",
@@ -77,14 +77,25 @@ export default function Home() {
 			/>
 			<LargeFeatureSection
 				reverse={true}
-				title="Keep Your Data Accurate & Organized"
-				description="Reduce errors, duplicates, and outdated data for a cleaner CRM"
+				title="Understand Your Energy Needs"
+				description=""
 				list={features.slice(3, 6)}
 				image={{
 					src: "./phone-mockup.png",
 					alt: "Image",
 					className:
 						"w-full aspect-square object-contain -rotate-6 hover:rotate-0 duration-300 ease-in-out",
+				}}
+			/>
+			<LargeFeatureSection
+				title="Make Data-Driven Decisions"
+				description=""
+				list={features.slice(6, 9)}
+				image={{
+					src: "./phone-mockup.png",
+					alt: "Image",
+					className:
+						"w-full aspect-square object-contain rotate-6 hover:rotate-0 duration-300 ease-in-out",
 				}}
 			/>
 			<PricingSection

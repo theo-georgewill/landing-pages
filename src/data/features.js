@@ -1,37 +1,47 @@
 export const features = [
   {
-    title: "Automated Workflows",
-    description: "Create no-code rules and triggers (e.g., “When a contact is created in HubSpot, add it to ClientSync”)",
+    title: "Dynamic Cost & Savings Estimates",
+    description: "Instantly see how much you’ll save compared to your current energy plan.",
     icon: "tabler:stack",
   },
   {
-    title: "No-Code Rule Builder",
-    description: "Build syncing rules visually through an easy-to-use form interface.",
+    title: "Partial vs. Full Solar Options",
+    description: "Compare different configurations to find the most cost-effective solution.",
     icon: "tabler:chart-bar",
   },
   {
-    title: "Real-time data sync ",
-    description: "Continuous syncing between ClientSync and connected CRMs.",
+    title: "ROI Calculator",
+    description: "Understand how quickly your investment in solar will pay off.",
     icon: "tabler:headset",
   },
   {
-    title: "Seamless CRM Integration",
-    description: "Connects directly to HubSpot (and other CRMs in future) to sync contacts, deals, and activities.",
+    title: "Custom Energy Profiling",
+    description: "Input your consumption patterns for tailored results.",
     icon: "tabler:users",
   },
   {
-    title: "Error Handling & Conflict Resolution",
-    description: "Automatically detect and fix sync issues.",
+    title: "Usage Breakdown",
+    description: "Visual charts highlight where your energy spend is highest.",
     icon: "tabler:brand-appstore",
   },
   {
-    title: "Activity Log & Sync History",
-    description: "Tracks all sync events with timestamps and outcomes.",
+    title: "Peak & Off-Peak Analysis",
+    description: "See how solar impacts your bills during high-demand times",
     icon: "tabler:brand-appstore",
   },
   {
-    title: "Centralized Dashboard",
-    description: "A single, clean dashboard to view and manage all synced client records.",
+    title: "Location-Based Insights",
+    description: "Adjusts calculations based on local sunlight and grid costs.",
+    icon: "tabler:database",
+  },
+  {
+    title: "Downloadable Reports",
+    description: "Export detailed cost and savings estimates for personal or business use.",
+    icon: "tabler:database",
+  },
+  {
+    title: "Smart Recommendations",
+    description: "Get suggestions on the best solar configuration for your needs.",
     icon: "tabler:database",
   },
 ];
