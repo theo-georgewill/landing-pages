@@ -25,7 +25,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Clientsync</title>
+				<title>Solar Calculator</title>
 			</Head>
 			<Header
 				logo={header.logo}
