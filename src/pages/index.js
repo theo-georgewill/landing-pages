@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>WindMill</title>
+        <title>Clientsync</title>
       </Head>
       <Header
         logo={header.logo}
@@ -34,24 +34,17 @@ export default function Home() {
       />
       <HeroSection
         id="home"
-        badge={{
-          href: "#",
-          icon: "tabler:arrow-right",
-          label: "😻 Learn What's New",
-        }}
-        title="Your Leads simplified"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-        expedita, ipsam nobis blanditiis provident ducimus aut, velit
-        facere fugit praesentium"
+        title="Sync Your Clients. Streamline Your Workflow"
+        description="ClientSync automates your CRM and business tool integrations, ensuring every client record is always accurate, organized, and up-to-date"
         buttons={[
           {
             href: "#",
-            label: "Start Free Trail",
+            label: "Get Started Free",
             color: "dark",
           },
           {
             href: "#",
-            label: "Learn More",
+            label: "See ClientSync in Action",
             color: "transparent",
             variant: "link",
             icon: "tabler:arrow-right",
@@ -72,8 +65,8 @@ export default function Home() {
         features={features}
       />
       <LargeFeatureSection
-        title="Stay on top of your business"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis similique"
+        title=" Save Time & Eliminate Manual Work"
+        description="Spend less time on repetitive tasks and more on high-value work."
         list={features.slice(0, 3)}
         image={{
           src: "./phone-mockup.png",
@@ -84,9 +77,9 @@ export default function Home() {
       />
       <LargeFeatureSection
         reverse={true}
-        title="Stay on top of your business"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis similique"
-        list={features.slice(0, 3)}
+        title="Keep Your Data Accurate & Organized"
+        description="Reduce errors, duplicates, and outdated data for a cleaner CRM"
+        list={features.slice(3, 6)}
         image={{
           src: "./phone-mockup.png",
           alt: "Image",
