@@ -55,4 +55,3 @@ A multi-purpose theme that can be used for any type of website and highly custom
 
 ## Usage Policy
 
-You can use this code for personal use, but you must include the original copyright notice and developer credit in the footer. If you want to use this code for commercial use, you must get the paid version. You can not resell, redistribute, or sub-license this code.
