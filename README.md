@@ -53,5 +53,3 @@ A multi-purpose theme that can be used for any type of website and highly custom
 - [ ] Image Slider
 - [ ] Countdown Timer
 
-## Usage Policy
-
